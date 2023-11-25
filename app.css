@@ -1,0 +1,70 @@
+
+body {
+    overflow-wrap: break-word;
+    font-size: 1.0625rem;
+    line-height: calc(var(--font-body-line-height-scale) * 1.6);
+    letter-spacing: var(--font-body-letter-spacing, normal);
+    background: var(--bg-body, #fff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-body);
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,helvetica,Ubuntu,roboto,noto,arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+#wrapper>[role=main] {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.flickity-enabled {
+    position: relative;
+}
+* {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+style {
+    display: none;
+}
+p, input, div {
+    -webkit-user-select: none;
+    user-select: none;
+}
+  .slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
